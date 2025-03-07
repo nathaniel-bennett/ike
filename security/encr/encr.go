@@ -17,11 +17,14 @@ var (
 func init() {
 	// ENCR String
 	encrString = make(map[uint16]func(uint16, uint16, []byte) string)
+	encrString[message.ENCR_NULL] = toString_ENCR_NULL
 	encrString[message.ENCR_AES_CBC] = toString_ENCR_AES_CBC
 
 	// ENCR Types
 	encrTypes = make(map[string]ENCRType)
 
+	encrTypes[ENCR_NULL] = &EncrNull{
+	}
 	encrTypes[ENCR_AES_CBC_128] = &EncrAesCbc{
 		keyLength: 16,
 	}
@@ -35,6 +38,8 @@ func init() {
 	// ENCR Kernel Types
 	encrKTypes = make(map[string]ENCRKType)
 
+	encrKTypes[ENCR_NULL] = &EncrNull{
+	}
 	encrKTypes[ENCR_AES_CBC_128] = &EncrAesCbc{
 		keyLength: 16,
 	}
