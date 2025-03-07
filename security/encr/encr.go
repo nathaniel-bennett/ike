@@ -3,8 +3,8 @@ package encr
 import (
 	"github.com/pkg/errors"
 
-	"github.com/free5gc/ike/message"
-	ikeCrypto "github.com/free5gc/ike/security/IKECrypto"
+	"github.com/nathaniel-bennett/ike/message"
+	ikeCrypto "github.com/nathaniel-bennett/ike/security/IKECrypto"
 )
 
 var encrString map[uint16]func(uint16, uint16, []byte) string

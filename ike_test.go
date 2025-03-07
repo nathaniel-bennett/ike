@@ -8,10 +8,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/free5gc/ike/message"
-	"github.com/free5gc/ike/security"
-	"github.com/free5gc/ike/security/encr"
-	"github.com/free5gc/ike/security/integ"
+	"github.com/nathaniel-bennett/ike/message"
+	"github.com/nathaniel-bennett/ike/security"
+	"github.com/nathaniel-bennett/ike/security/encr"
+	"github.com/nathaniel-bennett/ike/security/integ"
 )
 
 var (

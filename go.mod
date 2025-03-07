@@ -1,4 +1,4 @@
-module github.com/free5gc/ike
+module github.com/nathaniel-bennett/ike
 
 go 1.17
 

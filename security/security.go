@@ -13,14 +13,14 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/free5gc/ike/message"
-	ikeCrypto "github.com/free5gc/ike/security/IKECrypto"
-	"github.com/free5gc/ike/security/dh"
-	"github.com/free5gc/ike/security/encr"
-	"github.com/free5gc/ike/security/esn"
-	"github.com/free5gc/ike/security/integ"
-	"github.com/free5gc/ike/security/lib"
-	"github.com/free5gc/ike/security/prf"
+	"github.com/nathaniel-bennett/ike/message"
+	ikeCrypto "github.com/nathaniel-bennett/ike/security/IKECrypto"
+	"github.com/nathaniel-bennett/ike/security/dh"
+	"github.com/nathaniel-bennett/ike/security/encr"
+	"github.com/nathaniel-bennett/ike/security/esn"
+	"github.com/nathaniel-bennett/ike/security/integ"
+	"github.com/nathaniel-bennett/ike/security/lib"
+	"github.com/nathaniel-bennett/ike/security/prf"
 )
 
 // General data

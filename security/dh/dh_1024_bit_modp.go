@@ -3,7 +3,7 @@ package dh
 import (
 	"math/big"
 
-	"github.com/free5gc/ike/message"
+	"github.com/nathaniel-bennett/ike/message"
 )
 
 const (

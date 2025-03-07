@@ -8,9 +8,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/free5gc/ike/message"
-	ikeCrypto "github.com/free5gc/ike/security/IKECrypto"
-	"github.com/free5gc/ike/security/lib"
+	"github.com/nathaniel-bennett/ike/message"
+	ikeCrypto "github.com/nathaniel-bennett/ike/security/IKECrypto"
+	"github.com/nathaniel-bennett/ike/security/lib"
 )
 
 const (

@@ -9,12 +9,12 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/free5gc/ike/message"
-	"github.com/free5gc/ike/security/dh"
-	"github.com/free5gc/ike/security/encr"
-	"github.com/free5gc/ike/security/esn"
-	"github.com/free5gc/ike/security/integ"
-	"github.com/free5gc/ike/security/prf"
+	"github.com/nathaniel-bennett/ike/message"
+	"github.com/nathaniel-bennett/ike/security/dh"
+	"github.com/nathaniel-bennett/ike/security/encr"
+	"github.com/nathaniel-bennett/ike/security/esn"
+	"github.com/nathaniel-bennett/ike/security/integ"
+	"github.com/nathaniel-bennett/ike/security/prf"
 )
 
 func TestGenerateRandomNumber(t *testing.T) {

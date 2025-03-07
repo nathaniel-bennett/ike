@@ -5,7 +5,7 @@ import (
 	"crypto/md5" // #nosec G501
 	"hash"
 
-	"github.com/free5gc/ike/message"
+	"github.com/nathaniel-bennett/ike/message"
 )
 
 func toString_PRF_HMAC_MD5(attrType uint16, intValue uint16, bytesValue []byte) string {

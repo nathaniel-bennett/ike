@@ -5,7 +5,7 @@ import (
 	"crypto/sha1" // #nosec G505
 	"hash"
 
-	"github.com/free5gc/ike/message"
+	"github.com/nathaniel-bennett/ike/message"
 )
 
 func toString_AUTH_HMAC_SHA1_96(attrType uint16, intValue uint16, bytesValue []byte) string {
